@@ -9,13 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mobile">
-        <activity android:name=".formpendaftran"></activity>
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        <activity android:name=".srcollhorizontal" />
+        <activity android:name=".srcollhorizontal"></activity>
         <activity android:name=".scrollvertical" />
         <activity android:name=".materialdesign" />
         <activity android:name=".tabellayout" />
@@ -23,7 +17,11 @@
         <activity android:name=".constrainlayout" />
         <activity android:name=".relativlayout" />
         <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
